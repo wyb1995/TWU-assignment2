@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 public class Triangle {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         System.out.print("*\n");
         int i;
         Scanner sc = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Triangle {
 
         int horizontal = sc.nextInt();
 
-        for(i = 0; i < horizontal; i++) {
+        for (i = 0; i < horizontal; i++) {
             System.out.print("*");
         }
 
@@ -20,7 +20,7 @@ public class Triangle {
 
         int vertical = sc.nextInt();
 
-        for(i = 0; i < vertical; i++) {
+        for (i = 0; i < vertical; i++) {
             System.out.print("*\n");
         }
 
@@ -29,7 +29,7 @@ public class Triangle {
         int triangle = sc.nextInt();
         String asterisk = "*";
 
-        for(i = 0; i < triangle; i++) {
+        for (i = 0; i < triangle; i++) {
 
             System.out.print(asterisk + "\n");
             asterisk += "*";
